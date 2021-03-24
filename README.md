@@ -9,9 +9,9 @@ Replace the Project Title
 ### Description
 Describe what your project is about and what it does
 
+This project was about using Python to write a program that would pull information/data regarding usage of bikesharing programs in the cities of New York, Chicago, and Washington. 
 ### Files used
 Include the files used
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
