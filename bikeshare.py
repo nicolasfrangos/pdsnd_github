@@ -21,6 +21,8 @@ def get_filters():
     cities = ['chicago', 'new york city', 'washington']
     while True:
         city = str(input("\nPlease enter the city you would like to know more about: \n")).lower()
+        """Ensures that the code continues even if the user input is not compliant with city name inputs
+        """
         if city not in cities:
             print('Hmm I can only tell you about Chicago, New York City, or Washington. Try again with one of those instead')
             continue
@@ -29,6 +31,7 @@ def get_filters():
             break
 
     # TO DO: get user input for month (all, january, february, ... , june)
+    """Repeats the exact same code as above but with months"""
     months = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
     while True:
         month = input("\nPlease enter any month between January and June or for all the months simply type 'all': \n").lower()
@@ -40,6 +43,7 @@ def get_filters():
             break
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+    """Repeats the exact same code as above with days"""
     days = ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
     while True:
         day = input("Which day of the week would you like to look at? If you want all the days in a week type 'all': ").lower()
